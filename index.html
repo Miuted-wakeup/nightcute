@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja" class="notranslate">
+      <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="google" content="notranslate" />
+            <link rel="stylesheet" href="style.css" />
+            <title>Bocchi The Rock Slider Animation</title>
+      </head>
+
+      <body class="notranslate">
+            <div class="page-bg">
+                  <div class="icon-bg-1"></div>
+                  <div class="icon-bg-2"></div>
+            </div>
+
+            <div class="main-container">
+                  <div class="tab-container">
+                        <div class="char-bg container char-part">
+                              <div class="char-quote">
+                                    <img src="assets/char/nijika/nijika-quote.svg" alt="Cita de Nijika" />
+                              </div>
+                              <div class="bg-wrapper">
+                                    <img src="assets/char/nijika/nijika-bg.png" alt="Fondo de Nijika" />
+                              </div>
+                        </div>
+
+                        <div class="banner-wrap">
+                              <div class="banner-ticker">
+                                    <div class="ticker-track">
+                                          <span>NIJIKA IJICHI — DRUMS — KESSOKU BAND — </span>
+                                          <span>NIJIKA IJICHI — DRUMS — KESSOKU BAND — </span>
+                                          <span>NIJIKA IJICHI — DRUMS — KESSOKU BAND — </span>
+                                          <span>NIJIKA IJICHI — DRUMS — KESSOKU BAND — </span>
+                                          <span>NIJIKA IJICHI — DRUMS — KESSOKU BAND — </span>
+                                          <span>NIJIKA IJICHI — DRUMS — KESSOKU BAND — </span>
+                                    </div>
+                              </div>
+                              <div class="banner">
+                                    <div class="banner-content">
+                                          <div class="name-group">
+                                                <div class="kanji-name">伊地知 虹夏</div>
+                                          </div>
+                                          <div class="banner-marquee">
+                                                <div class="running-text-wrapper">
+                                                      <div class="running-text">
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                            <span>NIJIKA&nbsp;</span>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <button class="float-arrow float-prev prev-btn" aria-label="Anterior">
+                              <img src="assets/prev.png" alt="Anterior" />
+                        </button>
+                        <button class="float-arrow float-next next-btn" aria-label="Siguiente">
+                              <img src="assets/next.png" alt="Siguiente" />
+                        </button>
+
+                        <div class="img-char char-part">
+                              <img class="main-char" src="assets/char/nijika/nijika.png" alt="Personaje" />
+                        </div>
+
+                        <div class="profile-container char-part">
+                              <div class="profile-inner">
+                                    <div class="left">
+                                          <div class="profile-header">
+                                                <img src="assets/char/nijika/nijika-profile.svg" alt="Encabezado de perfil" />
+                                          </div>
+                                          <p class="profile-text">元気いっぱいの明るい高校二年生。結束バンドのドラム担当。結束バンドに加入したひとりにいろいろ世話を焼いてくれるバンドのまとめ役。ライブハウス「STARRY」の店長である星歌を姉に持ち、ライブハウスに特別な思いを持っている。</p>
+                                    </div>
+
+                                    <div class="right">
+                                          <div class="text-1">
+                                                <img src="assets/char/nijika/nijika-txt1.svg" alt="Texto 1" />
+                                          </div>
+                                          <div class="middle">
+                                                <img src="assets/char/nijika/nijika-icon.png" alt="Icono" />
+                                          </div>
+                                          <div class="text-2">
+                                                <img src="assets/char/nijika/nijika-txt2.svg" alt="Texto 2" />
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="pagination">
+                        <div class="pagination-bar"></div>
+                        <div class="pagination-item" data-index="2">
+                              <img src="assets/char/ryo/ryo-bg.png" alt="Ryo Yamada" />
+                        </div>
+                        <div class="pagination-item active" data-index="1">
+                              <img src="assets/char/nijika/nijika-bg.png" alt="Nijika Ijichi" />
+                        </div>
+                        <div class="pagination-item" data-index="3">
+                              <img src="assets/char/ikuyo/ikuyo-bg.png" alt="Ikuyo Kita" />
+                        </div>
+                        <div class="pagination-item" data-index="0">
+                              <img src="assets/char/bocchi/bocchi-bg.png" alt="Hitori Gotoh" />
+                        </div>
+                  </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script>
+            <script src="helper.js"></script>
+            <script src="script.js"></script>
+      </body>
+</html>
